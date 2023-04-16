@@ -1,5 +1,7 @@
 # Terraform-IAC
-- Terraform-State file and Build Files.
+
+```diff
+-Terraform-State file and Build Files.
 
 This repository contains Terraform files for deploying infrastructure on `AWS`. The main.tf file defines the resources to be provisioned, including `EC2` instances, `S3` buckets, and `VPCs`. The `variables.tf` file contains the input variables for the Terraform configuration, such as the instance type, subnet IDs, and IAM role names. The output.tf file defines the output values from the Terraform configuration, such as the public IP address of the EC2 instance and the bucket ARN. The provider.tf file specifies the AWS provider and the region to use. 
 
